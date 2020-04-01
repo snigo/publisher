@@ -1,5 +1,5 @@
-import Subject from './subject.class';
-import Subscription from './subscription.class';
+import Subject from './subject';
+import Subscription from './subscription';
 
 
 /**

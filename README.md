@@ -23,6 +23,7 @@ const Publisher = require('@lost-types/publisher');
 // Implement "Hello world" of reactive programming:
 class Counter extends Publisher {
   constructor() {
+    super();
     this.count = 0;
   }
 
@@ -40,10 +41,10 @@ const subscription = myCounter.subscribe({
   }
 });
 
-myCounter.increment(); // Logs: "The count is 1"
-myCounter.increment(); // LOGS: "The count is 2"
+myCounter.increment(); // Logs: "The count is: 1"
+myCounter.increment(); // Logs: "The count is: 2"
 
-subscription.unsubscribe('counter');
+subscription.unsubscribe('count');
 
 myCounter.increment(); // Logs nothing
 
