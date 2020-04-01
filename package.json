@@ -1,5 +1,5 @@
 {
-  "name": "index-library-template",
+  "name": "@lost-types/publisher",
   "version": "0.2.0",
   "description": "Index Library Template",
   "main": "lib/index.js",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snigo/index-library-template.git"
+    "url": "git+https://github.com/snigo/publisher.git"
   },
   "author": "snigo <snigo.ogins@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/snigo/index-library-template/issues"
+    "url": "https://github.com/snigo/publisher/issues"
   },
-  "homepage": "https://github.com/snigo/index-library-template#readme",
+  "homepage": "https://github.com/snigo/publisher#readme",
   "devDependencies": {
     "@ampproject/rollup-plugin-closure-compiler": "latest",
     "@babel/cli": "latest",
